@@ -10,7 +10,17 @@
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;
 }
-
+.btn {
+  text-align: center;
+  background: #000050;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.btn:hover {
+  background: #000094;
+}
 :root {
   --second-bg-color: #ffc5828c;
   --indian-yellow: hsl(36, 61%, 58%);
@@ -147,7 +157,8 @@ section {
 
 .input-field {
   background-color: var(--white);
-  color: var(--davys-gray);
+  /* color: var(--davys-gray); */
+  color: black;
   min-height: 56px;
   padding-inline: 25px;
   border-radius: var(--radius-5);
